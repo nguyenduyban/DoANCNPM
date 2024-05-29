@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Mới</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="container" style="background-color: azure(216, 228, 239);">
+        <div id="header">
+            <div id="logo"><a href="#"><img src="/images/layout/logo1.png" /></a></div>
+            <div id="banner"><img src="/images/layout/banner1.png"></div>
+        </div>
+        <div id="menu">
+            <div id="menu_left_corner"></div>
+            <div id="menu_content">
+                <ul id="hmenu">
+                    <li><a href="index.html"><img src="/images/layout/home.png">Trang chủ</a></li>
+                    <li class="devider">&nbsp;</li>
+                    <li><a href="about.html"><img src="/images/layout/Bulb-icon.png">Giới Thiệu</a></li>
+                    <li class="devider">&nbsp;</li>
+                    <li><a href="giohang.html"><img src="/images/layout/Cart-icon.png">Giỏ hàng</a></li>
+                    <li class="devider">&nbsp;</li>
+                    <li><a href="Login.html"><img src="/images/layout/user_add.png">Đăng nhập</a></li>
+                    <li style="float:right"><a><input placeholder="Tìm sản phẩm" value="" name="s" id="s">
+                            <input type="button" name="nmButton" value="Search"></a></li>
+                </ul>
+            </div>
+            <div id="menu_right_corner"></div>
+            <div style="clear:both"></div>
+        </div>
+        <div id="path"></div>
+        <div id="main">
+            <div id="left">
+                <div class="title">Các Loại</div>
+                <ul class="categories">
+                    <li class="lmenu1"><a href="asus.html"> <i class=" bi bi-microsoft"></i> &nbsp;&nbsp;ASUS</a></li>
+                    <li class="lmenu2"><a href="hp.html"> <i class="bi bi-microsoft"></i> &nbsp;&nbsp;HP</a></li>
+                    <li class="lmenu1"><a href="msi.html"> <i class="bi bi-microsoft"></i> &nbsp;&nbsp;MSI </a>  </li>
+                    <li class="lmenu2"><a href="acer.html"> <i class="bi bi-microsoft"></i> &nbsp;&nbsp;ACER</a> </li>
+                    <li class="lmenu1"><a href="macbook.html"><i class="bi bi-apple"></i>&nbsp;&nbsp;MACBOOOK</a> </li>
+                </ul>
+                <div class="box">
+                    <div class="title">SP Khuyến mãi</div>
+                    <div class="box_content" style="height:190px;">
+                        <marquee direction="up" height="190">
+                            <div class="pro_title">Asus ROG Strix Scar 18 Gaming G834JYR-R6011W i9 14900HX/64GB/2TB/18'' 240Hz/Nvidia RTX4090 16GB/Win11</div>
+                            <div style="text-align:center"><a href="rog.html"><img src="images/layout/asus/ROG.jpg"height="120" /></a></div>
+                            <div class="oldprice">150.999.000₫</div>
+                            <div class="pro_price">120.000.000₫</div>
+                            <div style="clear:both"></div>
+                            <hr color="#6da6b1" />
+                            <div class="pro_title">Laptop Apple MacBook Air 13 inch M1 2020 8-core CPU/8GB/256GB/7-core GPU (MGN63SA/A)</div>
+                            <div style="text-align:center"><a href="#"><img src="images/layout/MACBOOK/MacBook Air 13 inch M1 2020.png"height="120" /></a></div>
+                            <div class="oldprice">15.990.000₫</div>
+                            <div class="pro_price">12.290.000₫</div>
+                            <div style="clear:both"></div>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <div id="content"> 
+                <div class="big_box">
+                <div class="big_box_top"></div>
+                <div class="big_box_mid">
+                    
+                    <h2 style=" text-align: center;">Thông tin thanh toán</h2>
+                    <div class="checkout__order">
+                        <h3 style="text-align: center;">Hóa Đơn Của Bạn</h3>
+                        <h4>Sản Phẩm</h4>
+                        <table><tr>
+                        <td><p style="color: red; text-align: center"><b>Asus ROG Strix Scar 18 <br>
+                            Gaming G834JYR-R6011W<br> i9    
+                            14900HX/64GB/2TB/18'' <br>
+                            240Hz/Nvidia RTX4090 <br> 16GB/Win11</b></p></td>
+                            <td><img src="images/layout/asus/Bg-ROG.png"></td>
+                    </tr></table>
+                    <table><tr>
+                        <td><h4>Giá : </h4></td>
+                        <td style="color: red;"><b>120.000.000 đ</b></td>
+                        <td><h4>| Số Lượng :</h4></td>
+                        <td><div class="quantity">
+                            <div class="pro-qty">
+                                <input value="1" id="quantity" >
+                            </div>
+                        </div></td>
+                </tr></table>
+                <table><tr>
+                    <td><h2>Tổng Hóa Đơn : </h2></td>
+                    <td><span class="total-price"><b>120.000.000 đ</b></span>
+                    </td>
+                </tr></table>
+                <div class="checkout__input__checkbox">
+                    <label for="paypal">Paypal
+                        <input type="checkbox" id="paypal">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label for="Momo">Momo
+                        <input type="checkbox" id="Momo">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label for="thanhtoansau">Thanh Toán Khi Nhận Hàng
+                        <input type="checkbox" id="thanhtoansau">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <button type="button" class="site-btn" onclick="validateForm()">Đặt hàng</button>
+                    </div>
+                    <p>Họ Và Tên<span style="color: red;">*</span></p>
+                    <input type="text" id="fullNameInput">
+                    <div class="error-message" id="firstNameErrorMessage"></div>
+                   
+                    <p>Địa Chỉ:</p>
+                        <select class="form-select form-select-sm mb-3" id="city"
+                            aria-label=".form-select-sm">
+                            <option value="" selected>Chọn tỉnh thành</option>
+                        </select>
+                        <br>
+                        <br>
+                        <select class="form-select form-select-sm mb-3" id="district"
+                            aria-label=".form-select-sm">
+                            <option value="" selected>Chọn quận huyện</option>
+                        </select>
+                        <br>
+                        <br>
+                        <select class="form-select form-select-sm" id="ward"
+                            aria-label=".form-select-sm">
+                            <option value="" selected>Chọn phường xã</option>
+                        </select>
+                        <p>Số nhà <span style="color: red;">*</span></p>
+                        <input type="text" id="numberhomeInput">
+                        
+                        <div class="error-message" id="numberhomeErrorMessage"></div>
+                        <p>Mã bưu / ZIP<span style="color: red;">*</span></p>
+                        <input type="text" id="zipInput">
+                        <div class="error-message" id="zipErrorMessage"></div>
+                        <p>Điện thoại<span style="color: red;">*</span></p>
+                        <input type="text" id="numInput">
+                        <div class="error-message" id="numErrorMessage"></div>
+                        <p>Email<span style="color: red;">*</span></p>
+                        <input type="text" id="emailInput">
+                        <div class="error-message" id="emailErrorMessage"></div>
+                        <p>Ghi chú</p>
+                        <input type="text" placeholder="Ghi gì cũng được." id="noteInput">
+                        <div class="error-message" id="noteErrorMessage"></div>
+                        
+                        <!-- js -->
+                        <script src="scripts/jquery-3.3.1.min.js"></script>
+                        <script src="scripts/jquery.slicknav.js"></script>
+                        <script src="scripts/main.js"></script>
+                        <script
+                            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+                            <script>
+                            var citis = document.getElementById("city");
+                            var districts = document.getElementById("district");
+                            var wards = document.getElementById("ward");
+                            var Parameter = {
+                                url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
+                                method: "GET",
+                                responseType: "application/json",
+                            };
+                            var promise = axios(Parameter);
+                            promise.then(function (result) {
+                                renderCity(result.data);
+                            });
+                            function renderCity(data) {
+                                for (const x of data) {
+                                    citis.options[citis.options.length] = new Option(x.Name, x.Id);
+                                }
+                                citis.onchange = function () {
+                                    district.length = 1;
+                                    ward.length = 1;
+                                    if (this.value != "") {
+                                        const result = data.filter(n => n.Id === this.value);
+                                        for (const k of result[0].Districts) {
+                                            district.options[district.options.length] = new Option(k.Name, k.Id);
+                                        }
+                                    }
+                                };
+                                district.onchange = function () {
+                                    ward.length = 1;
+                                    const dataCity = data.filter((n) => n.Id === citis.value);
+                                    if (this.value != "") {
+                                        const dataWards = dataCity[0].Districts.filter(n => n.Id === this.value)[0].Wards;
+                                        for (const w of dataWards) {
+                                            wards.options[wards.options.length] = new Option(w.Name, w.Id);
+                                        }
+                                    }
+                                };
+                            }
+                            </script>
+                            <script>
+                                function validateForm() {
+                                    var firstNameInput = document.getElementById("fullNameInput");
+                                    var emailInput = document.getElementById("emailInput");
+                                    var firstName = firstNameInput.value.trim();
+                                    var email = emailInput.value.trim();
+                                    var isValid = true;
+                                    if (firstName === '') {
+                                        document.getElementById("firstNameErrorMessage").textContent = 'Vui lòng nhập tên của bạn.';
+                                        isValid = false;
+                                    }if (!validateEmail(emailInput.value)) {
+                                        document.getElementById("emailErrorMessage").textContent = 'Vui lòng nhập một địa chỉ email hợp lệ.';
+                                        isValid = false;
+                                    } else {
+                                        document.getElementById("emailErrorMessage").textContent = '';
+                                    }if (isValid) {
+                                        alert('Đặt hàng thành công!');
+                                    }
+                                }
+                                function validateEmail(email) {
+                                    var emailRegex = /\S+@\S+\.\S+/;
+                                    return emailRegex.test(email);
+                                }
+                                </script>
+                    </div>
+                </div>
+                    <div class="pro_box_bot"></div>
+                </div>
+            </div>
+            <div id="right">
+                <div class="box">
+                    <div class="title">Quảng cáo</div>
+                    <div class="box_content">
+                        <a href="index.html"><img src="images/layout/qc2.png" width="190" /> </a>
+                    </div>
+                </div>
+                <br>
+                <div class="box">
+                    <div class="title">SP Bán Chạy</div>
+                    <div class="box_content" style="height:190px;">
+                        <marquee direction="top" height="190">
+                            <div class="pro_title">Asus ROG Strix Scar 18 Gaming <br> G834JYR-R6011W i9 14900HX/64GB/2TB/18''<br> 240Hz/Nvidia RTX4090 16GB/Win11</div>
+                            <div style="text-align:center"><a href="rog.html"><img src="images/layout/asus/ROG.jpg"height="120" /></a></div>
+                            <div class="oldprice">150.999.000₫</div>
+                            <div class="pro_price">120.000.000₫</div>
+                            <div style="clear:both"></div>
+                        </marquee>
+                    </div>
+            </div>
+        </div>
+        <div style="clear:both; height:10px;"></div>
+        <div id="footer">
+            Copyright&copy; Laptop Online<br />
+            Địa chỉ: 180 Cao Lỗ - Phường 4 - Quận 8 - TP.HCM<br />
+            Điện thoại: 0342271703
+        </div>
+    </div>
+</body>
+</html>
